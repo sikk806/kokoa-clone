@@ -3,11 +3,13 @@
 @import "variables.css";
 
 @import "Components/status-bar.css";
+@import "Components/nav-bar.css";
 
 @import "screens/login.css";
 
 body {
   font-family: "Montserrat", sans-serif;
+  height: 1000vh;
 }
 
 .welcome-header {

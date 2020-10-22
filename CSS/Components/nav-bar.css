@@ -1,0 +1,18 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: seashell;
+  padding: 20px 35px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(119, 119, 119, 0.5);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: darkred;
+}
