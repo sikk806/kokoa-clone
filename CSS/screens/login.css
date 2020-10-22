@@ -1,0 +1,39 @@
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  border: none;
+  font-size: 18px;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* 박스 안의 문자들 */
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus:not([type="submit"]) {
+  border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  background-color: pink;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  font-size: 15px;
+}
