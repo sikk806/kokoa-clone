@@ -14,5 +14,35 @@
 }
 
 .nav__link {
+  position: relative;
   color: darkred;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  position: absolute; /* 이걸 쓰려면 부모에 position: relative */
+  left: 10px;
+  bottom: 10px;
+}
+
+.nav__ellipsis {
+  background-color: red;
+  width: 4px;
+  height: 4px;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
 }

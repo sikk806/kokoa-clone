@@ -1,15 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset.css";
 @import "variables.css";
 
 @import "Components/status-bar.css";
 @import "Components/nav-bar.css";
+@import "Components/screen-header.css";
 
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
-  font-family: "Montserrat", sans-serif;
-  height: 1000vh;
+  color: #2e363e;
+  font-family: "Roboto", sans-serif;
 }
 
 .welcome-header {
